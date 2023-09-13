@@ -70,7 +70,7 @@
             </div>
             <div class="bttb">
               <a href="./register.html" class="btn btn-primary px-4">مستخدم جديد</a>
-              <a href="./login.html" class="btn btn-primary px-4">تسجيل دخول</a>
+              <a href="./loginAll.html" class="btn btn-primary px-4">تسجيل دخول</a>
             </div>
         </div>
       </nav>

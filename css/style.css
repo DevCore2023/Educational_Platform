@@ -5,8 +5,6 @@
  * Copyright 2011-2020 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
-
-
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -42,8 +40,6 @@
 *::before,
 *::after {
   box-sizing: border-box;
-  outline: none;
-  border: none;
 }
 
 html {
@@ -2343,7 +2339,6 @@ textarea.form-control {
   line-height: 1.5;
   border-radius: 30px;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
-  margin: 0px 7px;
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -9869,9 +9864,6 @@ a.text-dark:hover, a.text-dark:focus {
   padding: 0;
   list-style-type: none;
 }
-
-
-
 /* Start Section Update */
 .body-register{
   background-color: #eee;
@@ -9930,7 +9922,18 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 /* End Section Update */
-
+.navbar-nav .bttb{
+  display: flex;
+  margin-top: 10px;
+  margin-right: 40px;
+}
+.navbar-nav .btn{
+  height: 50px;
+  margin: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 /* Start LoginAll */
 .icons{
   display: flex;
@@ -9950,6 +9953,12 @@ a.text-dark:hover, a.text-dark:focus {
   border-radius: 10px;
   padding: 20px;
 }
+@media (max-width : 786px){
+  .icons .container-icons{
+    width: 80%;
+    margin: auto;
+  }
+}
 .icons .container-icons .icon{
   width: 220px;
   height: 220px;
@@ -9957,7 +9966,7 @@ a.text-dark:hover, a.text-dark:focus {
   padding: 10px;
   background-color: #fff;
   transition: 0.5s;
-  border: 1px solid #212529;
+  border: 1px solid var(--primary);
   border-radius: 5px;
   text-align: center;
 }
@@ -9967,7 +9976,7 @@ a.text-dark:hover, a.text-dark:focus {
   margin-bottom: 20px;
 }
 .icons .container-icons .icon:hover{
-  border: 1px solid #333;
+  border: 1px solid var(--primary);
   box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.11) !important;
 }
 
@@ -9976,3 +9985,17 @@ a.text-dark:hover, a.text-dark:focus {
   max-height: 100%;
 }
 /* End LoginAll */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
