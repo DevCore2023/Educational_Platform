@@ -9881,6 +9881,12 @@ a.text-dark:hover, a.text-dark:focus {
   padding: 20px;
   width: 450px;
 }
+@media (max-width : 786px){
+  .form-container form{
+    width: 420px;
+    margin: auto;
+  }
+}
 .form-container form h3{
   text-align: center;
   font-size: 30px;
@@ -9934,7 +9940,11 @@ a.text-dark:hover, a.text-dark:focus {
   align-items: center;
   justify-content: center;
 }
+.navbar a span{
+  font-size: 27px !important;
+}
 /* Start LoginAll */
+
 .icons{
   display: flex;
   align-items: center;
@@ -9952,6 +9962,7 @@ a.text-dark:hover, a.text-dark:focus {
   justify-content: space-evenly;
   border-radius: 10px;
   padding: 20px;
+  gap: 12px;
 }
 @media (max-width : 786px){
   .icons .container-icons{
